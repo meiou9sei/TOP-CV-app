@@ -10,7 +10,7 @@ export default function InfoEducation() {
         <input type='text' name='school' id='school' placeholder='University of Kentucky' required/>
       </div>
       <div className='form-input'>
-        <label htmlFor='address'>City: </label>
+        <label htmlFor='schoolCity'>City: </label>
         {/* prettier-ignore */}
         <input type='text' name='schoolCity' id='schoolCity' placeholder='Lexington' required />
       </div>
