@@ -5,12 +5,12 @@ export default function InfoGeneral() {
     <section className='InfoGeneral'>
       <h2>General Information</h2>
       <div className='form-input'>
-        <label htmlFor='firstName'>First Name:</label>
+        <label htmlFor='firstName'>First Name: </label>
         {/* prettier-ignore */}
         <input type='text' name='firstName' id='firstName' placeholder='Jane' required/>
       </div>
       <div className='form-input'>
-        <label htmlFor='lastName'>Last Name:</label>
+        <label htmlFor='lastName'>Last Name: </label>
         {/* prettier-ignore */}
         <input type='text' name='lastName' id='lastName' placeholder='Doe' required/>
       </div>
