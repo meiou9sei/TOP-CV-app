@@ -7,8 +7,10 @@ function App() {
   return (
     <div className='App'>
       <Header />
-      <ToggleDisplay />
-      <CVCreator />
+      <main>
+        <ToggleDisplay />
+        <CVCreator />
+      </main>
       <Footer />
     </div>
   );

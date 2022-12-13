@@ -2,7 +2,7 @@ import React from "react";
 
 export default function InfoGeneral() {
   return (
-    <div className='InfoGeneral'>
+    <section className='InfoGeneral'>
       <h2>General Information</h2>
       <div className='form-input'>
         <label htmlFor='firstName'>First Name:</label>
@@ -34,6 +34,6 @@ export default function InfoGeneral() {
         {/* prettier-ignore */}
         <textarea name="description" id="description" cols="30" rows="3" placeholder="Very hard worker, baller" required></textarea>
       </div>
-    </div>
+    </section>
   );
 }
