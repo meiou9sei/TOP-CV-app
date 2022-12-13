@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function AddInfoSection() {
+export default function AddDeleteInfoSection() {
   return (
     <div className='add-delete-info-section-buttons'>
       <button className='add-info-section-button'>Add Another Position</button>
