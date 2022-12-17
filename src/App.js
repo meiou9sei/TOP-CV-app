@@ -15,12 +15,37 @@ function App() {
     description: "",
   });
 
+  const [infoExperience, setInfoExperience] = useState({
+    company: "",
+    companyCity: "",
+    jobTitle: "",
+    jobDescription: "",
+    jobYearStart: "",
+    jobYearEnd: "",
+  });
+
+  const [infoEducation, setInfoEducation] = useState({
+    school: "",
+    schoolCity: "",
+    degree: "",
+    degreeDescription: "",
+    educationYearStart: "",
+    educationYearEnd: "",
+  });
+
   return (
     <div className='App'>
       <Header />
       <main>
         <ToggleDisplay />
-        <CVCreator infoGeneral={infoGeneral} setInfoGeneral={setInfoGeneral} />
+        <CVCreator
+          infoGeneral={infoGeneral}
+          setInfoGeneral={setInfoGeneral}
+          infoExperience={infoExperience}
+          setInfoExperience={setInfoExperience}
+          infoEducation={infoEducation}
+          setInfoEducation={setInfoEducation}
+        />
       </main>
       <Footer />
     </div>
