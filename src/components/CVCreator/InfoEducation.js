@@ -1,5 +1,5 @@
 import React from "react";
-import AddDeleteInfoSection from "./AddDeleteInfoSection";
+import AddDeleteInfoSection from "./ManageUnit";
 import EducationUnit from "./units/EducationUnit";
 
 export default function InfoEducation({ infoEducation, setInfoEducation }) {

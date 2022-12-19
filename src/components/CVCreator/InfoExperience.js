@@ -1,5 +1,5 @@
 import React from "react";
-import AddDeleteInfoSection from "./AddDeleteInfoSection";
+import AddDeleteInfoSection from "./ManageUnit";
 import ExperienceUnit from "./units/ExperienceUnit";
 
 export default function InfoExperience({ infoExperience, setInfoExperience }) {
