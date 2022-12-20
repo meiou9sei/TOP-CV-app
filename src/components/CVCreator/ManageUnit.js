@@ -25,6 +25,7 @@ export default function ManageUnit({ infos, setStateMethod, unitType }) {
         break;
       case "experience":
         unit = {
+          id: new Date().valueOf(),
           company: "",
           companyCity: "",
           jobTitle: "",
