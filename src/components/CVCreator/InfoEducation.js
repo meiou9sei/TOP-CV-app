@@ -14,9 +14,9 @@ export default function InfoEducation({ infoEducation, setInfoEducation }) {
             infoUnit={infoUnit}
             setInfoEducation={setInfoEducation}
           />
-          <ManageUnit />
         </div>
       ))}
+      <ManageUnit infos={infoEducation} setStateMethod={setInfoEducation} />
 
       {/* <EducationUnit
         infoEducation={infoEducation}
