@@ -57,7 +57,11 @@ function App() {
             setInfoEducation={setInfoEducation}
           />
         ) : (
-          <CVDisplayer />
+          <CVDisplayer
+            infoGeneral={infoGeneral}
+            infoExperience={infoExperience}
+            infoEducation={infoEducation}
+          />
         )}
       </main>
       <Footer />
