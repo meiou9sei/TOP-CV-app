@@ -16,7 +16,11 @@ export default function InfoEducation({ infoEducation, setInfoEducation }) {
           />
         </div>
       ))}
-      <ManageUnit infos={infoEducation} setStateMethod={setInfoEducation} />
+      <ManageUnit
+        infos={infoEducation}
+        setStateMethod={setInfoEducation}
+        unitType={"education"}
+      />
 
       {/* <EducationUnit
         infoEducation={infoEducation}
