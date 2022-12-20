@@ -29,7 +29,7 @@ function App() {
 
   const [infoEducation, setInfoEducation] = useState([
     {
-      id: 1,
+      id: new Date().valueOf(),
       school: "",
       schoolCity: "",
       degree: "",
