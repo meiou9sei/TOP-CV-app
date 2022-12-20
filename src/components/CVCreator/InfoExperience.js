@@ -4,7 +4,7 @@ import ExperienceUnit from "./units/ExperienceUnit";
 
 export default function InfoExperience({ infoExperience, setInfoExperience }) {
   return (
-    <section className='InfoExperience'>
+    <section className='info-experience-editor'>
       <h2>Experience</h2>
       {infoExperience.map((infoUnit) => (
         <div className={"experience-unit-container"} key={infoUnit.id}>

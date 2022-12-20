@@ -2,7 +2,7 @@ import React from "react";
 
 export default function InfoGeneral({ infoGeneral, setInfoGeneral }) {
   return (
-    <section className='InfoGeneral'>
+    <section className='info-general-edit'>
       <h2>General Information</h2>
       <div className='form-input'>
         <label htmlFor='firstName'>First Name: </label>

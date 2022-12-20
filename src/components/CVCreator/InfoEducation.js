@@ -4,7 +4,7 @@ import EducationUnit from "./units/EducationUnit";
 
 export default function InfoEducation({ infoEducation, setInfoEducation }) {
   return (
-    <section className='InfoEducation'>
+    <section className='info-education-edit'>
       <h2>Education</h2>
 
       {infoEducation.map((infoUnit) => (
