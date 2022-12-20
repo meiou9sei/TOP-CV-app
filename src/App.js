@@ -18,23 +18,29 @@ function App() {
     description: "",
   });
 
-  const [infoExperience, setInfoExperience] = useState({
-    company: "",
-    companyCity: "",
-    jobTitle: "",
-    jobDescription: "",
-    jobYearStart: "",
-    jobYearEnd: "",
-  });
+  const [infoExperience, setInfoExperience] = useState([
+    {
+      id: new Date().valueOf(),
+      company: "",
+      companyCity: "",
+      jobTitle: "",
+      jobDescription: "",
+      jobYearStart: "",
+      jobYearEnd: "",
+    },
+  ]);
 
-  const [infoEducation, setInfoEducation] = useState({
-    school: "",
-    schoolCity: "",
-    degree: "",
-    degreeDescription: "",
-    educationYearStart: "",
-    educationYearEnd: "",
-  });
+  const [infoEducation, setInfoEducation] = useState([
+    {
+      id: new Date().valueOf() + 1,
+      school: "",
+      schoolCity: "",
+      degree: "",
+      degreeDescription: "",
+      educationYearStart: "",
+      educationYearEnd: "",
+    },
+  ]);
 
   return (
     <div className='App'>
