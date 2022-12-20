@@ -8,9 +8,24 @@ export default function ManageUnit({ infos, setStateMethod }) {
     setStateMethod(infos.slice(0, -1));
   };
 
+  const addUnitMethod = (e) => {
+    e.preventDefault();
+    setStateMethod(
+      infos.concat({
+        id: new Date().valueOf(),
+        school: "",
+        schoolCity: "",
+        degree: "",
+        degreeDescription: "",
+        educationYearStart: "",
+        educationYearEnd: "",
+      })
+    );
+  };
+
   return (
     <div className='manage-unit-buttons'>
-      <AddUnit />
+      <AddUnit addUnitMethod={addUnitMethod} />
       <DeleteUnit deleteUnitMethod={deleteUnitMethod} />
     </div>
   );

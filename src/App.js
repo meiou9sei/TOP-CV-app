@@ -30,21 +30,12 @@ function App() {
   const [infoEducation, setInfoEducation] = useState([
     {
       id: 1,
-      school: "Harvard",
-      schoolCity: "Cambridge",
-      degree: "B.S. in BSing",
-      degreeDescription: "I lie a lot",
-      educationYearStart: "2014",
-      educationYearEnd: "2018",
-    },
-    {
-      id: 2,
-      school: "Yale",
-      schoolCity: "New Haven",
-      degree: "Masters in Law",
-      degreeDescription: "We do some trialing",
-      educationYearStart: "2018",
-      educationYearEnd: "current",
+      school: "",
+      schoolCity: "",
+      degree: "",
+      degreeDescription: "",
+      educationYearStart: "",
+      educationYearEnd: "",
     },
   ]);
 
