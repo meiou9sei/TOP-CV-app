@@ -21,12 +21,6 @@ export default function InfoEducation({ infoEducation, setInfoEducation }) {
         setStateMethod={setInfoEducation}
         unitType={"education"}
       />
-
-      {/* <EducationUnit
-        infoEducation={infoEducation}
-        setInfoEducation={setInfoEducation}
-      /> */}
-      {/* <ManageUnit /> */}
     </section>
   );
 }
